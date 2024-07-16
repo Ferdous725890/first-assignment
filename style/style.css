@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body {
+    font-family: "Azeret Mono", monospace;
+}
+
+/* ======================================================== Header style Start ================================ */
+/* ======================================================== Benner Section ================================ */
+/* ======================================================== Header style Start ================================ */
+.banner-section-container {
+    max-width: 1440px;
+    height: 680px;
+    border: 1px solid red;                                   /* Need a Remove this */
+    /* --------------------------- remove this line */
+    background-image: url(/images/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.benner-section {
+    width: 998px;
+    height: 581px;
+    border: 2px solid red;                                      /* Need a Remove this */
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* =================================================== banner section image style ====================================== */
+
+.banner-section-image {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-section-image img {
+    width: 240px;
+    height: 240px;
+}
+
+/* =================================================== banner section text style ====================================== */
+.banner-section-title, button{
+    margin-top:20px;
+}
+.banner-section-title h1{
+    font-size:48px;
+    font-weight:800px;
+    color:#0D1321;
+}
+.banner-section-title p{
+    font-size:16px;
+    font-weight:400px;
+    color:#0D1321; 
+    margin:0 auto ;
+    margin-top: 20px;
+}
+.banner-section-title .first-btn{
+    font-size:20px;
+    font-weight: 400px ;
+    border-radius:10px;
+    border: none;
+    background-color: #0D1321;
+    padding:18px 24px ;
+    color:white;
+}
+
+/* =================================================== banner section text style ====================================== */
+
+ /* ============================================================Main Section Style ============================================ */
+.main-conteiner-section{
+    width:1100px;
+    height:1050px;
+    margin: 0 auto;
+    margin-top: 60px;
+    background-color:#adc8f751 ;
+   border: 2px solid rgb(0, 255, 13);                                       /* Need a Remove this */
+}
+.conteiner-section{
+    width:946px ;
+    height:900px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border:2px solid blueviolet ;
+}
+.main-conteiner-header-part{
+    width: 852px;
+    height:113px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25px;
+    border: 2px solid red;                                          /* Need a Remove this */
+}
+.main-conteiner-header-part-title{
+    font-size:30px;
+    font-weight:bold;
+    color:#0D1321;
+}
+.main-conteiner-header-part-discription{
+    font-size:12px;
+    font-weight:240px;
+    color:#0D1321;
+}
+
+
+/* ============================================================================================================= */
+.conteiner-section-coding-change-the-world{
+    width:850px;
+    height:219px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    border:2px solid red;
+}
+.coding-change-the-world-section{
+    width:477px;
+    height:140px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+.conteiner-section-coding-change-the-world button{
+    font-size:17px;
+    font-weight:400px;
+    padding:10px 20px;
+    border: 1px solid  #0D1321;
+    border-radius:5px;
+    color:#0D1321;
+}
+.conteiner-section-coding-change-the-world-title{
+    font-size:18px;
+    font-weight:bold;
+    color:#0D1321;
+    margin-bottom: 17px;
+    
+}
+.conteiner-section-coding-change-the-world-discription{
+    font-size:13px;
+    font-weight:400px;
+    color:#0D1321
+}
+
+
+/* =========================================== conteiner section image part ========================= */
+.conteiner-section-coding-change-the-world-image{
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+
+/* =========================================== My-Inspiration-conteiner-section ========================= */
+
+.My-Inspiration-conteiner-section{
+    width:1100px;
+    height:775px;
+    margin-top:150px;
+    border: 1px solid green;
+
+}
+.My-Inspiration-conteiner-section-titls{
+    width:800px;
+    height:113px;
+    margin: 0 auto;
+    text-align:center;
+    border: 2px solid gray;
+}
+
+.My-Inspiration-conteiner-section-titls h1{
+    font-size:30px;
+    font-weight:bold;
+    color:#0D1321;
+    
+}
+.My-Inspiration-conteiner-section-titls p{
+    margin-top: 20px;
+    font-size:13px;
+    font-weight:400px;
+    color:#0D1321;
+}
+
+.My-Inspiration-conteiner-video-section{
+    width:1100px;
+    height:580px;
+    /* margin-top:50px; */
+    
+    border:1px solid #abacaf;
+    border-radius: 18px;
+
+}
+.video{
+    width:1000px;
+    height:500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 2px solid #0D1321;
+    border-radius: 15px;
+}
+.video-frame{
+    border-radius: 18px;
+}
+
+
+
+
+/* ================================================= Support section ======================================== */
+.support-section{
+    width:1100px;
+    height:340px;
+    display:flex;
+    border:2px solid rgb(1, 255, 51);
+}
+.support-section-background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-image: url(/images/handshake.jpg);
+    position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.need-support-section{
+    width:1045px;
+    height: 185px;
+    border:1px solid rgb(0, 254, 140);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.need-support-section h2{
+    font-size:30px;
+    font-weight:bold;
+    color:#fff;
+    margin-bottom:18px;
+
+}
+.need-support-section p{
+    font-size:16px;
+    font-weight:400px;
+    color:#1d1c1c;
+    margin-bottom:18px;
+}
+.need-support-section .feedback{
+    padding:10px 20px 10px 215px;
+    border:none;
+    border-radius: 8px;
+    border: none;
+}
+.need-support-section .submit{
+    font-size:32px;
+    font-weight: 500px;
+}
+
+
+/* 0D1321 */
