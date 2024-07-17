@@ -12,13 +12,11 @@ body {
 }
 
 /* ======================================================== Header style Start ================================ */
-/* ======================================================== Benner Section ================================ */
-/* ======================================================== Header style Start ================================ */
+/* ======================================================== Benner Section ====================================*/
+
 .banner-section-container {
     max-width: 1440px;
     height: 680px;
-    border: 1px solid red;                                   /* Need a Remove this */
-    /* --------------------------- remove this line */
     background-image: url(/images/Hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -28,12 +26,11 @@ body {
 .benner-section {
     width: 998px;
     height: 581px;
-    border: 2px solid red;                                      /* Need a Remove this */
     margin: 0 auto;
     text-align: center;
 }
 
-/* =================================================== banner section image style ====================================== */
+/* ======================================================== BANNER SECTION IMAGE STYLE ================================ */
 
 .banner-section-image {
     margin-top: 50px;
@@ -41,225 +38,363 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .banner-section-image img {
     width: 240px;
     height: 240px;
 }
 
-/* =================================================== banner section text style ====================================== */
-.banner-section-title, button{
-    margin-top:20px;
-}
-.banner-section-title h1{
-    font-size:48px;
-    font-weight:800px;
-    color:#0D1321;
-}
-.banner-section-title p{
-    font-size:16px;
-    font-weight:400px;
-    color:#0D1321; 
-    margin:0 auto ;
+/* ======================================================== BANNER SECTION TEXT STYLE ================================ */
+
+.banner-section-title,
+button {
     margin-top: 20px;
 }
-.banner-section-title .first-btn{
-    font-size:20px;
-    font-weight: 400px ;
-    border-radius:10px;
+
+.banner-section-title h1 {
+    font-size: 48px;
+    font-weight: 800px;
+    color: #0D1321;
+}
+
+.banner-section-title p {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #0D1321;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.banner-section-title .first-btn {
+    font-size: 20px;
+    font-weight: 400px;
+    border-radius: 10px;
     border: none;
     background-color: #0D1321;
-    padding:18px 24px ;
-    color:white;
+    padding: 18px 24px;
+    color: white;
 }
 
-/* =================================================== banner section text style ====================================== */
+/* ============================================================= MAIN SECTION STYLE ================================ */
 
- /* ============================================================Main Section Style ============================================ */
-.main-conteiner-section{
-    width:1100px;
-    height:1050px;
+.main-conteiner-section {
+    width: 1100px;
+    height: 1050px;
     margin: 0 auto;
     margin-top: 60px;
-    background-color:#adc8f751 ;
-   border: 2px solid rgb(0, 255, 13);                                       /* Need a Remove this */
+    background-color: #adc8f715;
+    border-radius: 10px;
+    border: 1px solid #adc8f715;                                      
 }
-.conteiner-section{
-    width:946px ;
-    height:900px;
+.conteiner-section {
+    width: 946px;
+    height: 900px;
     margin: 0 auto;
     margin-top: 50px;
-    border:2px solid blueviolet ;
+    border: 2px solid rgba(211, 211, 211, 0.585);
 }
-.main-conteiner-header-part{
+
+.main-conteiner-header-part {
     width: 852px;
-    height:113px;
+    height: 113px;
     margin: 0 auto;
     text-align: center;
     margin-top: 25px;
-    border: 2px solid red;                                          /* Need a Remove this */
 }
-.main-conteiner-header-part-title{
-    font-size:30px;
-    font-weight:bold;
-    color:#0D1321;
+
+.main-conteiner-header-part-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0D1321;
+    margin-bottom: 20px;
+
 }
-.main-conteiner-header-part-discription{
-    font-size:12px;
-    font-weight:240px;
-    color:#0D1321;
+
+.main-conteiner-header-part-discription {
+    font-size: 12px;
+    font-weight: 240px;
+    color: #0D1321;
 }
 
 
 /* ============================================================================================================= */
-.conteiner-section-coding-change-the-world{
-    width:850px;
-    height:219px;
+.conteiner-section-coding-change-the-world {
+    width: 850px;
+    height: 219px;
     margin: 0 auto;
     margin-top: 30px;
     display: flex;
     align-items: center;
-    border:2px solid red;
+    /* border: 1px solid red; */
+    background-color: #ffffffd1;
+    border-radius: 16px;
+
 }
-.coding-change-the-world-section{
-    width:477px;
-    height:140px;
+
+.coding-change-the-world-section {
+    width: 477px;
+    height: 140px;
     margin: 0 auto;
-    border: 2px solid red;
 }
-.conteiner-section-coding-change-the-world button{
-    font-size:17px;
-    font-weight:400px;
-    padding:10px 20px;
-    border: 1px solid  #0D1321;
-    border-radius:5px;
-    color:#0D1321;
+
+.conteiner-section-coding-change-the-world button {
+    font-size: 17px;
+    font-weight: 400px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #0D1321;
+    border: 1px solid #0d132143;
 }
-.conteiner-section-coding-change-the-world-title{
-    font-size:18px;
-    font-weight:bold;
-    color:#0D1321;
+
+.conteiner-section-coding-change-the-world-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0D1321;
     margin-bottom: 17px;
+
+}
+
+.conteiner-section-coding-change-the-world-discription {
+    font-size: 13px;
+    font-weight: 400px;
+    color: #0D1321
     
 }
-.conteiner-section-coding-change-the-world-discription{
-    font-size:13px;
-    font-weight:400px;
-    color:#0D1321
-}
 
-
-/* =========================================== conteiner section image part ========================= */
-.conteiner-section-coding-change-the-world-image{
+/* ==================================================== CONTEINER SECTION IMAGE PART ================================ */
+.conteiner-section-coding-change-the-world-image {
     margin: 0 auto;
     margin-top: 18px;
 }
 
+/* =============================================== MY-INPIRATION-CONTAINER-SECTION  ================================ */
 
-/* =========================================== My-Inspiration-conteiner-section ========================= */
 
-.My-Inspiration-conteiner-section{
-    width:1100px;
-    height:775px;
-    margin-top:150px;
-    border: 1px solid green;
+.My-Inspiration-conteiner-section {
+    width: 1100px;
+    height: 775px;
+    margin-top: 150px;
 
 }
-.My-Inspiration-conteiner-section-titls{
-    width:800px;
-    height:113px;
+
+.My-Inspiration-conteiner-section-titls {
+    width: 800px;
+    height: 113px;
     margin: 0 auto;
-    text-align:center;
-    border: 2px solid gray;
+    text-align: center;
 }
 
-.My-Inspiration-conteiner-section-titls h1{
-    font-size:30px;
-    font-weight:bold;
-    color:#0D1321;
-    
+.My-Inspiration-conteiner-section-titls .My-Inspiration-conteiner-section-title {
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #0D1321;
+
+
 }
-.My-Inspiration-conteiner-section-titls p{
+
+.My-Inspiration-conteiner-section-titls p {
     margin-top: 20px;
-    font-size:13px;
-    font-weight:400px;
-    color:#0D1321;
+    font-size: 13px;
+    font-weight: 400px;
+    color: #0D1321;
 }
 
-.My-Inspiration-conteiner-video-section{
-    width:1100px;
-    height:580px;
-    /* margin-top:50px; */
-    
-    border:1px solid #abacaf;
+.My-Inspiration-conteiner-video-section {
+    width: 1100px;
+    height: 580px;
+    border: 1px solid #abacaf;
     border-radius: 18px;
 
 }
-.video{
+/* ======================================================== MY-CURRENT-TARGET-SECTION ================================ */
+
+
+.My-Current-Target{
+    width: 1100px;
+    height:460px;
+    /* border: 2px solid red; */
+    margin-bottom: 70px;
+}
+.My-Current-Target .My-Current-Target-titls-and-description {
+    width: 800px;
+    height: 75px;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 2px solid red; */
+
+}
+.My-Current-Target .My-Current-Target-titls-and-description h2{
+    font-size: 28px;
+    font-weight:800px;
+    color: #0D1321;
+}
+.My-Current-Target .My-Current-Target-titls-and-description p{
+    margin-top: 10px;    
+    font-size: 12px;
+    font-weight:400px;
+    color: #0D1321;
+}
+
+/* ======================================================== CARD SECTION ================================ */
+
+.My-Current-Target-section-card{
     width:1000px;
-    height:500px;
+    height:229px ;
+    margin: 0 auto;
+    margin-top: 45px;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+
+}
+.html img{
+    width: 50px;
+    height: 50px;
+}
+.html{
+    width:284px ;
+    height: 229px;
+    /* border: 2px solid red; */
+    padding: 40px;
+    background: rgba(255, 76, 30, 0.05);
+    border-radius: 12px;
+}
+.html h2{
+    font-size: 20px;
+    font-weight: 700px;
+    color: #0D1321;
+}
+.html p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 700px;
+    color: #0D1321;
+}
+.html a{
+    /* text-decoration: none; */
+    color: #0D1321;
+    font-size:16px;
+}
+
+/* ======================================================== css card ================================ */
+.css{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+/* ======================================================== js card ================================ */
+
+.js{
+   background-color:  rgba(255, 223, 0, 0.05)
+}
+
+/* ======================================================== YOUTUBE VIDEO SECTION ================================ */
+
+
+.video {
+    width: 1000px;
+    height: 500px;
     margin: 0 auto;
     margin-top: 30px;
-    border: 2px solid #0D1321;
     border-radius: 15px;
 }
-.video-frame{
+
+.video-frame {
     border-radius: 18px;
 }
 
-
-
-
-/* ================================================= Support section ======================================== */
-.support-section{
-    width:1100px;
-    height:340px;
-    display:flex;
-    border:2px solid rgb(1, 255, 51);
+/* ======================================================== SUPPORT SECTION ================================ */
+.support-section {
+    width: 1100px;
+    height: 340px;
+    display: flex;
 }
-.support-section-background{
+
+.support-section-background {
     display: flex;
     align-items: center;
+    border-radius: 10px;
     justify-content: center;
     margin: 0 auto;
-    background-image: url(/images/handshake.jpg);
-    position:center;
+    background-image:url(/images/handshake.jpg);
+    position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
-.need-support-section{
-    width:1045px;
+
+.need-support-section {
+    width: 1045px;
     height: 185px;
-    border:1px solid rgb(0, 254, 140);
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.need-support-section h2{
-    font-size:30px;
-    font-weight:bold;
-    color:#fff;
-    margin-bottom:18px;
+
+.need-support-section h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 18px;
 
 }
-.need-support-section p{
-    font-size:16px;
-    font-weight:400px;
-    color:#1d1c1c;
-    margin-bottom:18px;
+
+.need-support-section p {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #ffc9c9;
+    margin-bottom: 18px;
 }
-.need-support-section .feedback{
-    padding:10px 20px 10px 215px;
-    border:none;
+
+.need-support-section .feedback {
+    padding: 10px 215px 10px 20px;
+    border: none;
     border-radius: 8px;
     border: none;
-}
-.need-support-section .submit{
-    font-size:32px;
-    font-weight: 500px;
+
 }
 
+.need-support-section .submit {
+    font-size: 20px;
+    font-weight: 400px;
+    color: #0D1321;
+    border: none;
+    padding:5px 20px 8px;
+    border-radius:12px;
+}
 
-/* 0D1321 */
+/* ========================================================================================= */
+.footer-section {
+    width: 1285px;
+    height: 100px;
+    margin-top: 1700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foooter-all-element {
+    width: 1100px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-title h4 {
+    font-size: 15px;
+    font-weight: 400px;
+    color: #0D1321;
+
+
+}
+
+.foooter-all-element .social-mediay img {
+    width: 30px;
+    height: 30px;
+
+}
